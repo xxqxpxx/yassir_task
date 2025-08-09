@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Rick's face base -->
+    <path
+        android:fillColor="#F5DEB3"
+        android:pathData="M54,35 A19,19 0 0,1 54,73 A19,19 0 0,1 54,35 Z" />
+    
+    <!-- Rick's spiky hair -->
+    <path
+        android:fillColor="#C0C0C0"
+        android:pathData="M35,45 L37,40 L39,43 L41,38 L43,42 L45,37 L47,41 L49,36 L51,40 L53,35 L55,39 L57,34 L59,38 L61,35 L63,39 L65,36 L67,40 L69,37 L71,41 L73,38 L73,48 L35,48 Z" />
+    
+    <!-- Left eye (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,50 A6,6 0 0,1 44,62 A6,6 0 0,1 44,50 Z" />
+    
+    <!-- Right eye (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,50 A6,6 0 0,1 64,62 A6,6 0 0,1 64,50 Z" />
+    
+    <!-- Left pupil -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M44,54 A2,2 0 0,1 44,58 A2,2 0 0,1 44,54 Z" />
+    
+    <!-- Right pupil -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M64,54 A2,2 0 0,1 64,58 A2,2 0 0,1 64,54 Z" />
+    
+    <!-- Unibrow -->
+    <path
+        android:fillColor="#808080"
+        android:pathData="M40,48 Q54,46 68,48 Q54,50 40,48" />
+    
+    <!-- Mouth (frown) -->
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M48,65 Q54,68 60,65" />
+    
+    <!-- Drool -->
+    <path
+        android:fillColor="#90EE90"
+        android:pathData="M60,66 L61,70 L60,70 L59,66 Z" />
+    
+    <!-- Portal glow around head -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00FF41"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.6"
+        android:pathData="M54,30 A24,24 0 0,1 54,78 A24,24 0 0,1 54,30 Z" />
+    
+    <!-- Small portal particles -->
+    <path
+        android:fillColor="#90EE90"
+        android:fillAlpha="0.8"
+        android:pathData="M25,30 A2,2 0 0,1 25,34 A2,2 0 0,1 25,30 Z" />
+    <path
+        android:fillColor="#00FF41"
+        android:fillAlpha="0.6"
+        android:pathData="M83,78 A1.5,1.5 0 0,1 83,81 A1.5,1.5 0 0,1 83,78 Z" />
+    <path
+        android:fillColor="#ADFF2F"
+        android:fillAlpha="0.7"
+        android:pathData="M20,75 A1.8,1.8 0 0,1 20,78.6 A1.8,1.8 0 0,1 20,75 Z" />
+    <path
+        android:fillColor="#90EE90"
+        android:fillAlpha="0.5"
+        android:pathData="M85,25 A1.2,1.2 0 0,1 85,27.4 A1.2,1.2 0 0,1 85,25 Z" />
+    
+</vector>
