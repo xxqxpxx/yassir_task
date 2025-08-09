@@ -27,7 +27,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.ahmed.yassir.data.model.Episode
-import com.ahmed.yassir.ui.theme.AccentBlue
 
 @Composable
 fun EpisodeListScreen() {
